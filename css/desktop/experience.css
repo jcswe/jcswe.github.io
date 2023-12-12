@@ -1,0 +1,49 @@
+.right-side-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: end;
+}
+
+.position-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.title-company-years-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+ul.pos-description {
+    display: flex;
+    margin-block: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+    padding-left: 15px;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.pos-title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #577bf9;
+}
+
+.pos-company {
+    font-style: italic;
+    font-weight: 600;
+    color: #999999;
+}
+
+.pos-years {
+    font-weight: 600;
+    color: #999999;
+}
+
+::marker {
+    color: #c5c5c5;
+}

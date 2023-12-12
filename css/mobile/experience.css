@@ -1,0 +1,23 @@
+/* Mobile CSS */
+
+/* Start of page-specific mobile media queries */
+@media (max-width: 820px) { 
+    .page-content-inner-container {
+        row-gap: 50px;
+    }
+
+    .page-content-outer-container {
+        align-items: unset;
+    }
+
+    .title-company-years-container {
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    .right-side-container {
+        margin-bottom: 50px;
+    }
+}
+
+/* End of page-specific mobile media queries */

@@ -1,0 +1,24 @@
+/* Mobile CSS */
+
+/* Start of general mobile media queries */
+@media (max-width: 820px) { 
+    #desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu-btn-container {
+        display: flex;
+    }
+
+    .page-content-inner-container {
+        flex-direction: column;
+        max-height: unset;
+        margin-bottom: 50px;
+    }
+
+    .right-side-container {
+        row-gap: 30px;
+    }
+}
+
+/* End of general mobile media queries */

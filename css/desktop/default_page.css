@@ -1,0 +1,134 @@
+/* Desktop CSS */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Start of menu css */
+
+.mobile-menu-btn-container {
+    display: none;
+    margin: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.mobile-menu-button {
+    width: 58px;
+    height: 54px;
+}
+
+.mobile-menu-outer-container {
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    position: absolute;
+    background-color: #f6f6f6;
+    top: 80px;
+}
+
+.mobile-nav-menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style-type: none;
+    font-size: 35px;
+    color: #787878;
+    width: auto;
+    height: 100%;
+    margin: 0px 30px;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-top: 85px;
+    row-gap: 10px;
+}
+
+.desktop-nav-menu-container {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-block: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+    column-gap: 50px;
+    row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.nav-item {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.mobile-nav-item:hover {
+    text-decoration: underline;
+}
+
+.desktop-nav-item:hover {
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+/* End of menu css */
+
+.page-content-outer-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.page-content-inner-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 85vw;
+    height: auto;
+    column-gap: 100px;
+}
+
+.left-side-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+
+.subheader-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.subheader {
+    font-size: 35px;
+    margin-block: 0;
+    margin-inline: 0;
+    font-weight: bold;
+}
+
+.right-side-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: space-between;
+}
+
+.description-bold {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.description-reg {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.bold-span {
+    font-weight: 600;
+    color: #577bf9;
+}

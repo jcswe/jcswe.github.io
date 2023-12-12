@@ -1,0 +1,126 @@
+/* Desktop */
+
+#desktop-menu {
+    display: none;
+}
+
+.subheader-container {
+    margin-top: 4px;
+}
+
+.h5-subheader {
+    display: flex;
+    font-size: 35px;
+    margin-block: 0;
+    margin-inline: 0;
+    font-weight: bold;
+    justify-content: center;
+    grid-area: desktop-header;
+}
+
+#subheader-work-btn {
+    cursor: pointer;
+}
+
+ul.project-description {
+    list-style-type: none;
+    margin-block: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+li.project-desc-li {
+    font-size: 19px;
+}
+
+.h6-subheader {
+    display: flex;
+    font-size: 20px;
+    margin-block: 0;
+    margin-inline: 0;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.right-side-container {
+    display: grid;
+    grid-template-areas:
+    "desktop-header desktop-header" 
+    "desktop-top mobile"
+    "desktop-bot mobile";
+    justify-content: unset;
+    row-gap: 0;
+    column-gap: 25px;
+    row-gap: 20px;
+}
+
+.proj3-preview-cont {
+    grid-area: desktop-top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 5px;
+    align-items: center;
+}
+
+#proj3-preview {
+    width: 520px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.proj-1-photo-cont-1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    grid-area: desktop-bot;
+    justify-content: flex-end;
+}
+
+.proj-1-desktop-photo-cont {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.proj-1-photo-cont-2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    grid-area: mobile;
+}
+
+.proj-1-desktop-photo {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.proj-1-mobile-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.head {
+    grid-area: head;
+}
+
+.top-left {
+    grid-area: top-left;
+}
+
+.top-right {
+    grid-area: top-right;
+}
+
+.bot-left {
+    grid-area: bot-left;
+}
+
+.bot-right {
+    grid-area: bot-right;
+}

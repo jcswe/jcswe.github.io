@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+
+    <!-- Google Fonts Start -->
+        <!-- Playfair Display & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- Google Fonts End -->
+
+    <link rel="stylesheet" href="../css/universal/universal.css">
+    <link rel="stylesheet" href="../css/desktop/default_page.css">
+    <link rel="stylesheet" href="../css/desktop/proj2.css">
+    <link rel="stylesheet" href="../css/mobile/default_page.css">
+    <link rel="stylesheet" href="../css/mobile/proj2.css">
+</head>
+<body>
+    <main class="main-container">
+        <div class="mobile-menu-btn-container">
+            <img class="mobile-menu-button" id="menu-btn-id" src="../photos/icons/menu_grey.png">
+        </div>
+        <div class="mobile-menu-outer-container" id="mobile-menu" style="display: none;">
+            <menu class="mobile-nav-menu-container">
+                <li class="nav-item mobile-nav-item" id="mobile-home-btn">Home</li>
+                <li class="nav-item mobile-nav-item" id="mobile-about-me-btn">About Me</li>
+                <li class="nav-item mobile-nav-item" id="mobile-experience-btn">Experience</li>
+                <li class="nav-item mobile-nav-item" id="mobile-work-btn">Work</li>
+                <li class="nav-item mobile-nav-item" id="mobile-connect-btn">Connect</li>
+            </menu>
+        </div>
+        <div class="page-content-outer-container">
+            <div class="page-content-inner-container">
+                <div class="left-side-container">
+                    <div class="subheader-container">
+                        <h3 class="subheader" id="subheader-work-btn">Work</h3>
+                    </div>
+                    <menu class="desktop-nav-menu-container" id="desktop-menu">
+                        <li class="nav-item desktop-nav-item" id="desktop-home-btn">Home</li>
+                        <li class="desktop-menu-separators">|</li>
+                        <li class="nav-item desktop-nav-item" id="desktop-about-me-btn">About Me</li>
+                        <li class="desktop-menu-separators">|</li>
+                        <li class="nav-item desktop-nav-item" id="desktop-experience-btn">Experience</li>
+                        <li class="desktop-menu-separators">|</li>
+                        <li class="nav-item desktop-nav-item" id="desktop-work-btn">Work</li>
+                        <li class="desktop-menu-separators">|</li>
+                        <li class="nav-item desktop-nav-item" id="desktop-connect-btn">Connect</li>
+                    </menu>
+                    <div class="project-description-container">
+                        <ul class="project-description">
+                            <li class="project-desc-li">Complete redesign and vision for the TechOps website.</li>
+                            <li class="project-desc-li">Changed the site to a Mobile-first design.</li>
+                            <li class="project-desc-li">New branding and logo created.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-side-container">
+                    <h5 class="h5-subheader">TechOps Website</h5>
+                    <div class="proj2-vid-cont">
+                        <h6 class="h6-subheader">Redesign</h6>
+                        <video id="proj2-vid" controls autoplay muted="true">
+                            <source src="../photos/projects/project_2/proj2_desktop.mp4">
+                        </video>
+                    </div>
+                    <div class="proj-1-photo-cont-1">
+                        <h6 class="h6-subheader">Desktop Before and After</h6>
+                        <div class="proj-1-desktop-photo-cont">
+                            <img class="proj-1-desktop-photo" src="../photos/projects/project_2/proj2_before.png">
+                            <img class="proj-1-desktop-photo" src="../photos/projects/project_2/proj2_after.png">
+                        </div>
+                        
+                    </div>
+                    <div class="proj-1-photo-cont-2">
+                        <h6 class="h6-subheader head">Mobile</h6>
+                        <video class="proj-1-mobile-photo top-left" controls autoplay muted="true">
+                            <source src="../photos/projects/project_2/proj2_mobile.mp4">
+                        </video>
+                        <img class="proj-1-mobile-photo top-right" src="../photos/projects/project_2/proj2_mobile1.png">
+                        <img class="proj-1-mobile-photo bot-left" src="../photos/projects/project_2/proj2_mobile2.png">
+                        <img class="proj-1-mobile-photo bot-right" src="../photos/projects/project_2/proj2_mobile3.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../js/nav_menu.js"></script>
+    <script src="../js/sub_work_btn.js"></script>
+</body>
+</html>

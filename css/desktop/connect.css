@@ -1,0 +1,61 @@
+/* Desktop */
+
+.page-content-inner-container {
+    column-gap: 200px;
+}
+
+.right-side-container {
+    justify-content: end;
+}
+
+.contact-info-container {
+    list-style-type: none;
+    margin-block: 0;
+    padding-inline: 0;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #cdcdcd;
+    padding: 55px 165px;
+    border-radius: 20px;
+    row-gap: 45px;
+    background-color: #fff;
+}
+
+.contact-name, .contact-email, .resume-container, .contact-resume, .email-header, .social-header {
+    font-size: 19px;
+}
+
+.contact-name {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.contact-email-container, .icon-links-outer-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.icon-links-inner-container {
+    list-style-type: none;
+    margin-block: 0;
+    padding-inline: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+}
+
+img.github-link, img.linkedin-link {
+    width: 40px;
+    height: auto;
+}
+
+.contact-link {
+    color: #577bf9;
+    text-decoration: none;
+}
+
+.contact-resume {
+    text-decoration: underline;
+}
