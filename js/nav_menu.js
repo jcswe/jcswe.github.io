@@ -10,23 +10,23 @@ const desktop_work_btn = document.getElementById("desktop-work-btn");
 const desktop_connect_btn = document.getElementById("desktop-connect-btn");
 
 desktop_home_btn.addEventListener("click", () => {
-    window.open("/portfolio_site_dev/", "_self");
+    window.open("https://jcswe.github.io/", "_self");
 })
 
 desktop_about_me_btn.addEventListener("click", () => {
-    window.open("/portfolio_site_dev/about_me", "_self");
+    window.open("https://jcswe.github.io/about_me/", "_self");
 });
 
 desktop_experience_btn.addEventListener("click", () => {
-    window.open("/portfolio_site_dev/experience", "_self");
+    window.open("https://jcswe.github.io/experience/", "_self");
 });
 
 desktop_work_btn.addEventListener("click", () => {
-    window.open("/portfolio_site_dev/work", "_self");
+    window.open("https://jcswe.github.io/work/", "_self");
 });
 
 desktop_connect_btn.addEventListener("click", () => {
-    window.open("/portfolio_site_dev/connect", "_self");
+    window.open("https://jcswe.github.io/connect/", "_self");
 });
 
 // Handle mobile menu btn click.
@@ -44,23 +44,23 @@ mobile_menu_btn.addEventListener("click", () => {
         const mobile_connect_btn = document.getElementById("mobile-connect-btn");
 
         mobile_home_btn.addEventListener("click", () => {
-            window.open("/portfolio_site_dev/", "_self");
+            window.open("https://jcswe.github.io/", "_self");
         })
 
         mobile_about_me_btn.addEventListener("click", () => {
-            window.open("/portfolio_site_dev/about_me", "_self");
+            window.open("https://jcswe.github.io/about_me/", "_self");
         });
 
         mobile_experience_btn.addEventListener("click", () => {
-            window.open("/portfolio_site_dev/experience", "_self");
+            window.open("https://jcswe.github.io/experience/", "_self");
         });
 
         mobile_work_btn.addEventListener("click", () => {
-            window.open("/portfolio_site_dev/work", "_self");
+            window.open("https://jcswe.github.io/work/", "_self");
         });
 
         mobile_connect_btn.addEventListener("click", () => {
-            window.open("/portfolio_site_dev/connect", "_self");
+            window.open("https://jcswe.github.io/connect/", "_self");
         });
     }
     else {
