@@ -1,7 +1,7 @@
-# Portfolio Site
+# Portfolio Site for Joey Campos
 
 I built this simple website as a way to show examples of professional work I have 
-done as a full stack web developer. The projects shown in the work tab of my site
+done as a full stack web developer. The projects shown in the "Work" page of my site
 are ones that are talked about in my resume. You can click on each project thumbnail
 to see further details about that project.
 
