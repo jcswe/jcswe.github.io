@@ -1,10 +1,12 @@
 # Portfolio Site
 
 I built this simple website as a way to show examples of professional work I have 
-done as a full stack web developer and that are talked about in my resume. 
-It has a mobile-first design and uses vanilla JS, HTML, and CSS.
+done as a full stack web developer. The projects shown in the work tab of my site
+are ones that are talked about in my resume. You can click on each project thumbnail
+to see further details about that project.
 
-Updates and modifications will continue to be added to this project as needed.
+My site has a mobile-first design and uses vanilla JS, HTML, and CSS. Updates and 
+modifications will continue to be added to this project as needed.
 
 You can visit my website [here](https://jcswe.github.io/).
 
