@@ -5,15 +5,29 @@
     .page-content-inner-container {
         row-gap: 50px;
     }
-    
+
     .project-links-container {
         flex-direction: column;
         align-items: center;
-        row-gap: 20px;
+        row-gap: 40px;
     }
 
     .project-container {
         width: 100%;
-        height: 25vh;
+        height: 40vh;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .project-links-container {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+    }
+
+    .project-container {
+        width: 100%;
+        height: 250px;
     }
 }
