@@ -18,6 +18,10 @@
     grid-area: desktop-header;
 }
 
+.project-name-mobile {
+    display: none;
+}
+
 #subheader-work-btn {
     cursor: pointer;
 }
