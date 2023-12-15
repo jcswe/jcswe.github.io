@@ -13,8 +13,8 @@
 .project-container {
     border: solid #cfcfcf 1px;
     border-radius: 15px;
-    width: 16vw;
-    height: auto;
+    width: 17vw;
+    height: 20vh;
     cursor: pointer;
 }
 
