@@ -62,10 +62,15 @@
         column-gap: 5px;
     }
 
-    .proj-1-desktop-photo, .proj-1-mobile-photo {
+    .proj-1-desktop-photo {
         width: 100%;
         height: 100%;
         border-radius: 10px;
+    }
+
+    .proj-1-mobile-photo {
+        width: 100%;
+        height: 700px;
     }
 
     .head {
@@ -90,5 +95,12 @@
 
     .page-content-inner-container {
         row-gap: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    .proj-1-mobile-photo {
+        width: 100%;
+        height: 380px;
     }
 }

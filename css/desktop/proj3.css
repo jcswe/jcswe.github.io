@@ -76,7 +76,7 @@ li.project-desc-li {
     border-radius: 12px;
 }
 
-.proj-1-photo-cont-1 {
+.proj-3-photo-cont-1 {
     display: flex;
     flex-direction: column;
     row-gap: 12px;
@@ -84,26 +84,26 @@ li.project-desc-li {
     justify-content: flex-end;
 }
 
-.proj-1-desktop-photo-cont {
+.proj-3-desktop-photo-cont {
     display: flex;
     flex-direction: row;
     column-gap: 20px;
 }
 
-.proj-1-photo-cont-2 {
+.proj-3-photo-cont-2 {
     display: flex;
     flex-direction: column;
     row-gap: 5px;
     grid-area: mobile;
 }
 
-.proj-1-desktop-photo {
+.proj-3-desktop-photo {
     width: 250px;
     height: auto;
     border-radius: 12px;
 }
 
-.proj-1-mobile-photo {
+.proj-3-mobile-photo {
     width: 300px;
     height: auto;
     border-radius: 12px;
