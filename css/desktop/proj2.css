@@ -24,6 +24,7 @@
 
 #subheader-work-btn {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 ul.project-description {
@@ -109,7 +110,7 @@ li.project-desc-li {
 
 .proj-2-mobile-photo {
     width: 115px;
-    height: 239px;
+    height: 241px;
     border-radius: 12px;
 }
 

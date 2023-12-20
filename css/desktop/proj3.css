@@ -24,6 +24,7 @@
 
 #subheader-work-btn {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 ul.project-description {
@@ -99,13 +100,13 @@ li.project-desc-li {
 
 .proj-3-desktop-photo {
     width: 250px;
-    height: auto;
+    height: 100%;
     border-radius: 12px;
 }
 
 .proj-3-mobile-photo {
     width: 300px;
-    height: auto;
+    height: 100%;
     border-radius: 12px;
 }
 
