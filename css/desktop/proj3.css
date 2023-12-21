@@ -22,9 +22,22 @@
     display: none;
 }
 
-#subheader-work-btn {
+.subheader-back-btn {
+    width: 125px;
+    height: 47px;
+    font-size: 23px;
+    font-family: 'Playfair display', sans-serif;
+    background-color: #5e5758;
+    color: #f6f6f6;
+    border: solid 1px #5e5758;
+    border-radius: 36px;
     cursor: pointer;
-    text-decoration: underline;
+}
+
+.subheader-back-btn:hover {
+    background-color: #f6f6f6;
+    color: #5e5758;
+    border: solid 1px #5e5758;
 }
 
 ul.project-description {

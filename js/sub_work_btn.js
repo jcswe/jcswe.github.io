@@ -1,5 +1,5 @@
-const subheader_work_btn = document.getElementById("subheader-work-btn");
+const subheader_back_btn = document.getElementById("subh-bck-btn");
 
-subheader_work_btn.addEventListener("click", () => {
+subheader_back_btn.addEventListener("click", () => {
     window.open("index.html", "_self");
 });
