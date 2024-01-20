@@ -3,6 +3,7 @@
 /* Start of page-specific mobile media queries */
 @media (max-width: 820px) { 
     .page-content-inner-container {
+        max-width: unset;
         row-gap: 50px;
     }
 

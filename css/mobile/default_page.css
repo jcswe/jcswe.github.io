@@ -10,10 +10,21 @@
         display: flex;
     }
 
+    .main-container {
+        justify-content: unset;
+    }
+
+    .page-content-outer-container {
+        align-items: unset;
+        min-height: unset;
+        max-height: unset;
+    }
+
     .page-content-inner-container {
         flex-direction: column;
         max-height: unset;
         margin-bottom: 50px;
+        max-width: unset;
     }
 
     .right-side-container {

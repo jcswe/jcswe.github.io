@@ -5,6 +5,7 @@
 @media (max-width: 820px) { 
     .page-content-inner-container {
         row-gap: 50px;
+        max-width: unset;
     }
 
     .page-content-outer-container {

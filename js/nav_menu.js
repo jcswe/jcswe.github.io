@@ -10,31 +10,34 @@ const desktop_work_btn = document.getElementById("desktop-work-btn");
 const desktop_connect_btn = document.getElementById("desktop-connect-btn");
 
 desktop_home_btn.addEventListener("click", () => {
-    window.open("https://jcswe.github.io/", "_self");
+    window.open("/portfolio_site_dev/", "_self");
 })
 
 desktop_about_me_btn.addEventListener("click", () => {
-    window.open("https://jcswe.github.io/about_me/", "_self");
+    window.open("/portfolio_site_dev/about_me", "_self");
 });
 
 desktop_experience_btn.addEventListener("click", () => {
-    window.open("https://jcswe.github.io/experience/", "_self");
+    window.open("/portfolio_site_dev/experience", "_self");
 });
 
 desktop_work_btn.addEventListener("click", () => {
-    window.open("https://jcswe.github.io/work/", "_self");
+    window.open("/portfolio_site_dev/work", "_self");
 });
 
 desktop_connect_btn.addEventListener("click", () => {
-    window.open("https://jcswe.github.io/connect/", "_self");
+    window.open("/portfolio_site_dev/connect", "_self");
 });
 
 // Handle mobile menu btn click.
 const mobile_menu_btn = document.getElementById("menu-btn-id");
 const mobile_menu = document.getElementById("mobile-menu");
+const body_ele = document.getElementById("body-ele");
+
 mobile_menu_btn.addEventListener("click", () => {
     if(mobile_menu.style.display === "none"){
         mobile_menu.style.display = "block";
+        body_ele.style.position = "fixed";
 
         // Handle clicking on different links in the mobile menu.
         const mobile_home_btn = document.getElementById("mobile-home-btn");
@@ -44,26 +47,27 @@ mobile_menu_btn.addEventListener("click", () => {
         const mobile_connect_btn = document.getElementById("mobile-connect-btn");
 
         mobile_home_btn.addEventListener("click", () => {
-            window.open("https://jcswe.github.io/", "_self");
+            window.open("/portfolio_site_dev/", "_self");
         })
 
         mobile_about_me_btn.addEventListener("click", () => {
-            window.open("https://jcswe.github.io/about_me/", "_self");
+            window.open("/portfolio_site_dev/about_me", "_self");
         });
 
         mobile_experience_btn.addEventListener("click", () => {
-            window.open("https://jcswe.github.io/experience/", "_self");
+            window.open("/portfolio_site_dev/experience", "_self");
         });
 
         mobile_work_btn.addEventListener("click", () => {
-            window.open("https://jcswe.github.io/work/", "_self");
+            window.open("/portfolio_site_dev/work", "_self");
         });
 
         mobile_connect_btn.addEventListener("click", () => {
-            window.open("https://jcswe.github.io/connect/", "_self");
+            window.open("/portfolio_site_dev/connect", "_self");
         });
     }
     else {
         mobile_menu.style.display = "none";
+        body_ele.style.position = "unset";
     }
 });

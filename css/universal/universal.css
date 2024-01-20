@@ -2,10 +2,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #635656;
-    background-color: #f6f6f6;
+    /* background-color: #f6f6f6; */
+    background-color: #ececec;
     box-sizing: border-box;
     min-width: 320px;
-    max-height: 100vh;
     margin: 0;
     padding: 0;
     

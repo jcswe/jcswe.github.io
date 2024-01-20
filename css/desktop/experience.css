@@ -1,7 +1,7 @@
 .right-side-container {
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 15px;
     justify-content: end;
 }
 

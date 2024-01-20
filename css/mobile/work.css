@@ -1,8 +1,44 @@
 /* Mobile CSS */
 
+@media (max-width: 1220px) {
+    .project-container {
+        width: 230px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .project-container {
+        width: 220px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .project-container {
+        width: 210px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .project-container {
+        width: 200px;
+    }
+}
+
+@media (max-width: 960px) {
+    .project-container {
+        width: 190px;
+    }
+}
+
+@media (max-width: 920px) {
+    .project-container {
+        width: 170px;
+    }
+}
 
 @media (max-width: 820px) { 
     .page-content-inner-container {
+        max-width: unset;
         row-gap: 50px;
     }
 

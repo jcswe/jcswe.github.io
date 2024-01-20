@@ -1,28 +1,54 @@
 /* Desktop */
 
-#desktop-menu {
-    display: none;
+.page-content-outer-container {
+    row-gap: 20px;
 }
 
-.subheader-container {
-    margin-top: 4px;
+.page-content-inner-container {
+    max-width: 80vw;
+    row-gap: 30px;
 }
 
-.h5-subheader {
+.subheader-desktop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-subheader {
     display: flex;
     font-size: 35px;
     margin-block: 0;
     margin-inline: 0;
     font-weight: bold;
     justify-content: center;
-    grid-area: desktop-header;
+    /* grid-area: desktop-header; */
 }
 
-.project-name-mobile {
-    display: none;
+.h5-subheader {
+    display: flex;
+    font-size: 16px;
+    margin-block: 0;
+    margin-inline: 0;
+    font-weight: 400;
+    justify-content: center;
 }
 
-.subheader-back-btn {
+.left-and-right-outer-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.project-description-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin-top: 7px;
+    row-gap: 20px;
+}
+
+/* .subheader-back-btn {
     width: 125px;
     height: 47px;
     font-size: 23px;
@@ -38,20 +64,30 @@
     background-color: #f6f6f6;
     color: #5e5758;
     border: solid 1px #5e5758;
-}
+} */
 
-ul.project-description {
+.project-purpose, .project-impact {
     list-style-type: none;
     margin-block: 0;
     margin-inline: 0;
     padding-inline: 0;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 10px;
+}
+
+.project-h3-subheader {
+    font-size: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+    color: #577bf9;
 }
 
 li.project-desc-li {
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .h6-subheader {
@@ -66,7 +102,7 @@ li.project-desc-li {
 .right-side-container {
     display: grid;
     grid-template-areas:
-    "desktop-header desktop-header" 
+    /* "desktop-header desktop-header"  */
     "desktop-top mobile"
     "desktop-bot mobile";
     justify-content: unset;
@@ -85,7 +121,7 @@ li.project-desc-li {
 }
 
 #proj3-preview {
-    width: 520px;
+    width: 440px;
     height: auto;
     border-radius: 12px;
 }
@@ -112,13 +148,13 @@ li.project-desc-li {
 }
 
 .proj-3-desktop-photo {
-    width: 250px;
+    width: 210px;
     height: 100%;
     border-radius: 12px;
 }
 
 .proj-3-mobile-photo {
-    width: 300px;
+    width: 260px;
     height: 100%;
     border-radius: 12px;
 }
