@@ -1,7 +1,7 @@
 /* Desktop */
 
 .page-content-inner-container {
-    column-gap: 200px;
+    row-gap: 80px;
 }
 
 .right-side-container {
@@ -17,17 +17,21 @@
     border: solid 1px #cdcdcd;
     padding: 55px 165px;
     border-radius: 20px;
-    row-gap: 45px;
+    row-gap: 32px;
     background-color: #fff;
 }
 
-.contact-name, .contact-email, .resume-container, .contact-resume, .email-header, .social-header {
+.contact-name, .contact-email, .resume-container, .contact-resume, .email-header, .social-header, .github-source-code {
     font-size: 19px;
 }
 
 .contact-name {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 32px;
+}
+
+.email-header, .social-header {
+    font-weight: 600;
 }
 
 .contact-email-container, .icon-links-outer-container {
@@ -56,6 +60,6 @@ img.github-link, img.linkedin-link {
     text-decoration: none;
 }
 
-.contact-resume {
+.contact-resume, .source-code {
     text-decoration: underline;
 }
