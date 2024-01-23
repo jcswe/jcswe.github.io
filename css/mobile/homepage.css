@@ -21,6 +21,10 @@
 }
 
 @media (max-width: 820px) {
+    .page-content-outer-container {
+        padding-top: 10px;
+    }
+
     .page-content-inner-container {
         row-gap: 55px;
         max-width: unset;
