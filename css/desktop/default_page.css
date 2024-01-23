@@ -59,6 +59,8 @@
     row-gap: 10px;
     justify-items: center;
     align-items: center;
+    position: fixed;
+    top: 40px;
 }
 
 .nav-item {
