@@ -39,7 +39,7 @@
     .proj1-subproj-container {
         max-width: unset;
         width: 100%;
-        row-gap: 12px;
+        row-gap: 2px;
         opacity: 1;
     }
 
