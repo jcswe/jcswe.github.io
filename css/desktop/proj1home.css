@@ -5,7 +5,7 @@
 }
 
 .page-content-inner-container {
-    max-width: unset;
+    padding: 0px 10px;
     row-gap: 60px;
 }
 
@@ -54,13 +54,24 @@
     display: flex;
     flex-direction: column;
     max-width: 354px;
-    row-gap: 40px;
+    row-gap: 5px;
+    border: solid 1px #c3c3c3;
+    border-radius: 7px;
+    background-color: #363636;
+    color: #f6f6f6;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.proj1-subproj-container:hover {
+    opacity: 0.8;
 }
 
 .subheader-and-desc-container {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
+    padding: 0px 8px 8px 8px;
 }
 
 .subheader-desktop {
@@ -84,6 +95,6 @@
 .subproj-img {
     width: 354px;
     height: auto;
-    border-radius: 6px;
-    cursor: pointer;
+    border-radius: 6px 6px 0px 0px;
+    /* border-bottom: solid 1px #c3c3c3; */
 }

@@ -10,8 +10,13 @@
         display: flex;
     }
 
+    .nav-item {
+        font-size: 28px;
+    }
+
     .main-container {
         justify-content: unset;
+        height: unset;
     }
 
     .page-content-outer-container {
@@ -23,6 +28,7 @@
     .page-content-inner-container {
         flex-direction: column;
         max-height: unset;
+        padding: 0px 10px;
         margin-bottom: 50px;
         max-width: unset;
     }
