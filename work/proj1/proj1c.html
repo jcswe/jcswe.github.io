@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../../css/universal/universal.css">
     <link rel="stylesheet" href="../../css/desktop/default_page.css">
     <link rel="stylesheet" href="../../css/desktop/proj1bc.css">
+    <link rel="stylesheet" href="../../css/desktop/modal.css">
     <link rel="stylesheet" href="../../css/mobile/default_page.css">
     <link rel="stylesheet" href="../../css/mobile/proj1bc.css">
 </head>
@@ -71,8 +72,8 @@
                         <div class="proj-1-photo-cont-1">
                             <h6 class="h6-subheader">Homepage</h6>
                             <div class="proj-1-desktop-photo-cont">
-                                <img class="proj-1-desktop-photo" src="../../photos/projects/project_1/proj1c/metadata_thumbnail.png">
-                                <img class="proj-1-desktop-photo" src="../../photos/projects/project_1/proj1c/metadata_homepage.png">
+                                <img id="proj1c-img1" class="proj-1-desktop-photo" src="../../photos/projects/project_1/proj1c/metadata_thumbnail.png" alt="Homepage">
+                                <img id="proj1c-img2" class="proj-1-desktop-photo" src="../../photos/projects/project_1/proj1c/metadata_homepage.png" alt="BUTV programs table">
                             </div>
                             
                         </div>
@@ -81,15 +82,21 @@
                             <video class="proj-1-mobile-photo" controls autoplay muted="true">
                                 <source src="../../photos/projects/project_1/proj1c/completed_program.mp4">
                             </video>
-                            <img class="proj-1-mobile-photo" src="../../photos/projects/project_1/proj1c/new_program2.png">
-                            <img class="proj-1-mobile-photo" src="../../photos/projects/project_1/proj1c/new_program3.png">
+                            <img id="proj1c-img3" class="proj-1-mobile-photo" src="../../photos/projects/project_1/proj1c/new_program2.png" alt="Program form top">
+                            <img id="proj1c-img4" class="proj-1-mobile-photo" src="../../photos/projects/project_1/proj1c/new_program3.png" alt="Program form bottom">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="image-modal" id="imgModal">
+            <span class="close-modal-btn" id="modCloseBtn">&times;</span>
+            <img class="modal-content" id="modContent">
+            <div class="modal-caption" id="modCaption"></div>
+        </div>
     </main>
 
     <script src="../../js/nav_menu.js"></script>
+    <script src="../../js/img_modal_proj1c.js"></script>
 </body>
 </html>

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../css/universal/universal.css">
     <link rel="stylesheet" href="../css/desktop/default_page.css">
     <link rel="stylesheet" href="../css/desktop/proj2.css">
+    <link rel="stylesheet" href="../css/desktop/modal.css">
     <link rel="stylesheet" href="../css/mobile/default_page.css">
     <link rel="stylesheet" href="../css/mobile/proj2.css">
 </head>
@@ -71,8 +72,8 @@
                         <div class="proj-2-photo-cont-1">
                             <h6 class="h6-subheader">Desktop Before and After</h6>
                             <div class="proj-2-desktop-photo-cont">
-                                <img class="proj-2-desktop-photo" src="../photos/projects/project_2/proj2_before.png">
-                                <img class="proj-2-desktop-photo" src="../photos/projects/project_2/proj2_after.png">
+                                <img id="proj2-img1" class="proj-2-desktop-photo" src="../photos/projects/project_2/proj2_before.png" alt="TechOps site before">
+                                <img id="proj2-img2" class="proj-2-desktop-photo" src="../photos/projects/project_2/proj2_after.png" alt="TechOps site after">
                             </div>
                             
                         </div>
@@ -81,16 +82,22 @@
                             <video class="proj-2-mobile-photo top-left" controls autoplay muted="true">
                                 <source src="../photos/projects/project_2/proj2_mobile.mp4">
                             </video>
-                            <img class="proj-2-mobile-photo top-right" src="../photos/projects/project_2/proj2_mobile1.png">
-                            <img class="proj-2-mobile-photo bot-left" src="../photos/projects/project_2/proj2_mobile2.png">
-                            <img class="proj-2-mobile-photo bot-right" src="../photos/projects/project_2/proj2_mobile3.png">
+                            <img id="proj2-img3" class="proj-2-mobile-photo top-right" src="../photos/projects/project_2/proj2_mobile1.png" alt="Mobile homepage">
+                            <img id="proj2-img4" class="proj-2-mobile-photo bot-left" src="../photos/projects/project_2/proj2_mobile2.png" alt="Mobile fines page">
+                            <img id="proj2-img5" class="proj-2-mobile-photo bot-right" src="../photos/projects/project_2/proj2_mobile3.png" alt="Mobile fines details">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="image-modal" id="imgModal">
+            <span class="close-modal-btn" id="modCloseBtn">&times;</span>
+            <img class="modal-content" id="modContent">
+            <div class="modal-caption" id="modCaption"></div>
+        </div>
     </main>
 
     <script src="../js/nav_menu.js"></script>
+    <script src="../js/img_modal_proj2.js"></script>
 </body>
 </html>

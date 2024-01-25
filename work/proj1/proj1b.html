@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../../css/universal/universal.css">
     <link rel="stylesheet" href="../../css/desktop/default_page.css">
     <link rel="stylesheet" href="../../css/desktop/proj1bc.css">
+    <link rel="stylesheet" href="../../css/desktop/modal.css">
     <link rel="stylesheet" href="../../css/mobile/default_page.css">
     <link rel="stylesheet" href="../../css/mobile/proj1bc.css">
 </head>
@@ -71,23 +72,29 @@
                         <div class="proj-1-photo-cont-1">
                             <h6 class="h6-subheader">Homepage</h6>
                             <div class="proj-1-desktop-photo-cont">
-                                <img class="proj-1-desktop-photo" src="../../photos/projects/project_1/proj1b/comvideo_upload_thumbnail.png">
-                                <img class="proj-1-desktop-photo" src="../../photos/projects/project_1/proj1b/cv_upload_homepage.png">
+                                <img id="proj1b-img1" class="proj-1-desktop-photo" src="../../photos/projects/project_1/proj1b/comvideo_upload_thumbnail.png" alt="Homepage">
+                                <img id="proj1b-img2" class="proj-1-desktop-photo" src="../../photos/projects/project_1/proj1b/cv_upload_homepage.png" alt="Upload options interface">
                             </div>
                             
                         </div>
                         <div class="proj-1-photo-cont-2">
                             <h6 class="h6-subheader head">Upload Interfaces</h6>
-                            <img class="proj-1-mobile-photo" src="../../photos/projects/project_1/proj1b/cv_upload_gdrive.png">
-                            <img class="proj-1-mobile-photo" src="../../photos/projects/project_1/proj1b/cv_upload_local.png">
-                            <img class="proj-1-mobile-photo" src="../../photos/projects/project_1/proj1b/cv_upload_progress_table.png">
+                            <img id="proj1b-img3" class="proj-1-mobile-photo" src="../../photos/projects/project_1/proj1b/cv_upload_gdrive.png" alt="Google Drive upload">
+                            <img id="proj1b-img4" class="proj-1-mobile-photo" src="../../photos/projects/project_1/proj1b/cv_upload_local.png" alt="Local upload">
+                            <img id="proj1b-img5" class="proj-1-mobile-photo" src="../../photos/projects/project_1/proj1b/cv_upload_progress_table.png" alt="Upload progress table">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="image-modal" id="imgModal">
+            <span class="close-modal-btn" id="modCloseBtn">&times;</span>
+            <img class="modal-content" id="modContent">
+            <div class="modal-caption" id="modCaption"></div>
+        </div>
     </main>
 
     <script src="../../js/nav_menu.js"></script>
+    <script src="../../js/img_modal_proj1b.js"></script>
 </body>
 </html>
