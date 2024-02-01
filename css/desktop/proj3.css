@@ -152,12 +152,22 @@ li.project-desc-li {
     width: 210px;
     height: 100%;
     border-radius: 12px;
+    cursor: pointer;
+}
+
+.proj-3-desktop-photo:hover {
+    opacity: 0.7;
 }
 
 .proj-3-mobile-photo {
     width: 260px;
     height: 100%;
     border-radius: 12px;
+    cursor: pointer;
+}
+
+.proj-3-mobile-photo:hover {
+    opacity: 0.7;
 }
 
 .head {
