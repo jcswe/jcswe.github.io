@@ -7,13 +7,14 @@ const modal_caption = document.getElementById("modCaption");
 const modal_close_btn = document.getElementById("modCloseBtn");
 
 // Proj3 Images
+const proj3_img_homepage = document.getElementById("proj3-preview");
 const proj3_img1 = document.getElementById("proj3-img1");
 const proj3_img2 = document.getElementById("proj3-img2");
 const proj3_img3 = document.getElementById("proj3-img3");
 const proj3_img4 = document.getElementById("proj3-img4");
 const proj3_img5 = document.getElementById("proj3-img5");
 
-const proj3_img_arr = [proj3_img1, proj3_img2, proj3_img3, proj3_img4, proj3_img5];
+const proj3_img_arr = [proj3_img_homepage, proj3_img1, proj3_img2, proj3_img3, proj3_img4, proj3_img5];
 
 for(let i = 0; i < proj3_img_arr.length; i++){
     proj3_img_arr[i].addEventListener("click", () => {
