@@ -125,6 +125,11 @@ li.project-desc-li {
     width: 440px;
     height: auto;
     border-radius: 12px;
+    cursor: pointer;
+}
+
+#proj3-preview:hover {
+    opacity: 0.8;
 }
 
 .proj-3-photo-cont-1 {
