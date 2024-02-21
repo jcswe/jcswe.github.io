@@ -10,10 +10,10 @@ This site has a mobile-first design and uses vanilla JS, HTML, and CSS. I will c
 to update and modify this project as needed.
 
 ### Website
-You can visit my website [here](https://jcswe.github.io/).
+- You can visit my website [here](https://jcswe.github.io/).
 
-This site is being hosted via [GitHub Pages](https://pages.github.com/).
+- This site is being hosted via [GitHub Pages](https://pages.github.com/).
 
-### Credits for icons used:
+### Credits for icons used
 - [Approval icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/approval)
 - [Code icons created by srip - Flaticon](https://www.flaticon.com/free-icons/code)
