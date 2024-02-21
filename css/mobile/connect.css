@@ -7,6 +7,34 @@
     }
 
     .contact-info-container {
+        padding: 60px 130px;
+    }
+
+    .right-side-container {
+        align-items: center;
+    }
+}
+
+@media (max-width: 535px){
+    .contact-info-container {
+        padding: 60px 100px;
+    }
+}
+
+@media (max-width: 514px){
+    .contact-info-container {
         padding: 60px 50px;
+    }
+}
+
+@media (max-width: 375px){
+    .contact-info-container {
+        padding: 60px 40px;
+    }
+}
+
+@media (max-width: 340px){
+    .contact-info-container {
+        padding: 60px 20px;
     }
 }

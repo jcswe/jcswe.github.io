@@ -15,42 +15,66 @@
     display: flex;
     flex-direction: column;
     border: solid 1px #cdcdcd;
-    padding: 55px 165px;
+    padding: 38px 130px;
     border-radius: 20px;
-    row-gap: 32px;
+    row-gap: 38px;
     background-color: #fff;
 }
 
-.contact-name, .contact-email, .resume-container, .contact-resume, .email-header, .social-header, .github-source-code {
-    font-size: 19px;
+.contact-name, .contact-email, .resume-container, .contact-resume, .email-header, .social-header, .github-source-code, .badges-header, .resume-header, .source-code-header {
+    font-size: 17px;
 }
 
 .contact-name {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 34px;
+    text-align: center;
 }
 
-.email-header, .social-header {
+.email-header, .social-header, .badges-header, .resume-header, .source-code-header {
     font-weight: 600;
 }
 
-.contact-email-container, .icon-links-outer-container {
+.contact-email-container {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
 
-.icon-links-inner-container {
-    list-style-type: none;
-    margin-block: 0;
-    padding-inline: 0;
+.icon-links-outer-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    column-gap: 20px;
+    column-gap: 30px;
 }
 
-img.github-link, img.linkedin-link {
+.icon-links-inner-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 115px;
+}
+
+.icons-only-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.resume-code-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.resume-container, .source-code-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 115px;
+}
+
+img.github-link, img.linkedin-link, img.credly-link, img.resume-link, img.code-link {
     width: 40px;
     height: auto;
 }
